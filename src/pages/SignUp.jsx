@@ -10,38 +10,38 @@ const SignUp = () => {
             alt="App Logo"
             className="w-36 h-36 rounded-full mx-auto"
           />
-          <h2 className="text-2xl font-semibold mt-4">Sign Up</h2>
+          <h2 className="text-3xl font-semibold mt-4">Sign Up</h2>
         </div>
-        <form>
+        <form className='w-full flex flex-col items-center justify-center'>
           <div className="mb-4">
             <input
               type="text"
               placeholder="Username"
-              className="w-full px-3 py-2 border rounded-3xl"
+              className="w-full pr-36 pl-4 py-2 border rounded-3xl"
             />
           </div>
           <div className="mb-4">
             <input
               type="email"
               placeholder="E-mail"
-              className="w-full px-3 py-2 border rounded-3xl"
+              className="w-full pr-36 pl-4 py-2 border rounded-3xl"
             />
           </div>
           <div className="mb-6">
             <input
               type="password"
               placeholder="Password"
-              className="w-full px-3 py-2 border rounded-3xl"
+              className="w-full pr-36 pl-4 py-2 border rounded-3xl"
             />
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600"
+            className="w-1/3 bg-blue-500 text-white py-2 rounded-xl hover:bg-blue-600"
           >
             Create
           </button>
         </form>
-        <p className="mt-4 text-center">
+        <p className="mt-4 text-center font-bold">
           Already have an account? <a href="#">Sign In</a>
         </p>
       </div>
