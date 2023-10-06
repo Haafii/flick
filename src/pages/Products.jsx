@@ -3,7 +3,7 @@ import React from 'react'
 function Products() {
     return (
         <div className='h-[700px] flex items-center justify-center '>
-            <div className="mt-20  bg-[url('../public/images/home-bg-1.jpeg')] h-[635px] w-full mx-20 p-4 flex flex-col justify-center bg-cover bg-center ">
+            <div className="mt-20  bg-[url('../public/images/products-bg.jpeg')] h-[635px] w-full mx-20 p-4 flex flex-col justify-center bg-cover bg-center ">
                 <p className='text-6xl ml-6 mb-4 mt-[-80px] font-bold uppercase text-white'>Products</p>
                 <div className=' ml-6 h-[470px] w-[1160px] flex gap-6 '>
                     <div className='bg-white w-full rounded-3xl flex flex-col items-center justify-center gap-2'>
