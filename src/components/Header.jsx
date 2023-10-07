@@ -20,13 +20,13 @@ function Header() {
           <nav>
             <ul className="flex gap-7 font-bold uppercase text-xl">
               <li>
-                <Link to="/about">About Us</Link>
+                <Link to="/home">About Us</Link>
               </li>
               <li>
                 <Link to="/products">Products</Link>
               </li>
               <li>
-                <Link to="/categories">Categories</Link>
+                <Link to="/catagories">Categories</Link>
               </li>
               <li>
                 <Link to="/cart">Cart</Link>
