@@ -101,15 +101,15 @@ function Cart() {
                 <img src='../public/images/saree.jpeg' alt='Image Description' className='w-full h-full object-contain rounded-3xl' />
               </div>
               <div className='flex flex-col w-1/2 items-center justify-center h-full gap-4'>
-                <button class="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-2">
+                <button className="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-2">
                   <DeleteForeverOutlinedIcon className='ml-[-17px]' />
                   Remove
                 </button>
-                <button class="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-4">
+                <button className="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-4">
                   <BookmarkBorderOutlinedIcon className='ml-[-17px]' />
                   Save
                 </button>
-                <button class="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex gap-2">
+                <button className="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex gap-2">
                   <ShoppingBagOutlinedIcon className='ml-[-24px]' />
                   Buy Now
                 </button>
