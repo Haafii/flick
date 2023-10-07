@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Products from './pages/Products';
 import Cart from './pages/Cart';
 import Catagories from './pages/Catagories';
+import BuyProduct from './pages/BuyProduct';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="products" element={<Products />} />
           <Route path="cart" element={<Cart />} />
           <Route path="catagories" element={<Catagories />} />
+          <Route path="buy" element={<BuyProduct />} />
         </Routes>
       </Router>
     </div>
