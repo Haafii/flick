@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Products() {
   return (
@@ -10,25 +11,31 @@ function Products() {
             <div className='h-96'>
               <img src='../public/images/pants.jpeg' alt='Image Description' className='w-full h-full object-contain rounded-3xl ' />
             </div>
-            <button className='bg-red-700 text-white rounded-xl px-6 uppercase font-semibold py-2'>
-              buy
-            </button>
+            <Link to={'/buy'}>
+              <button className='bg-red-700 text-white rounded-xl px-6 uppercase font-semibold py-2'>
+                buy
+              </button>
+            </Link>
           </div>
           <div className='bg-white w-full rounded-3xl flex flex-col items-center justify-center gap-2'>
             <div className='h-96'>
               <img src='../public/images/shirt.jpeg' alt='Image Description' className='w-full h-full object-contain rounded-3xl ' />
             </div>
-            <button className='bg-red-700 text-white rounded-xl px-6 uppercase font-semibold py-2'>
-              buy
-            </button>
+            <Link to={'/buy'}>
+              <button className='bg-red-700 text-white rounded-xl px-6 uppercase font-semibold py-2'>
+                buy
+              </button>
+            </Link>
           </div>
           <div className='bg-white w-full rounded-3xl flex flex-col items-center justify-center gap-2'>
             <div className='h-96'>
               <img src='../public/images/saree.jpeg' alt='Image Description' className='w-full h-full object-contain rounded-3xl ' />
             </div>
-            <button className='bg-red-700 text-white rounded-xl px-6 uppercase font-semibold py-2'>
-              buy
-            </button>
+            <Link to={'/buy'}>
+              <button className='bg-red-700 text-white rounded-xl px-6 uppercase font-semibold py-2'>
+                buy
+              </button>
+            </Link>
           </div>
         </div>
       </div>
