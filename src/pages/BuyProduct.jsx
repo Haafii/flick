@@ -35,7 +35,7 @@ function BuyProduct() {
               <StarBorderOutlinedIcon className='text-red-500' style={{ width: '60px', height: '60px' }} />
             </p>
             <p className='ml-16 text-5xl font-bold mt-4'>
-              Rs. 1200
+              Rs. 900
             </p>
           </div>
           <div className='flex items-center justify-center gap-4 text-semibold text-lg text-white'>
