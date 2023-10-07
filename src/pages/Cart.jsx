@@ -8,9 +8,9 @@ import StarBorderOutlinedIcon from '@mui/icons-material/StarBorderOutlined';
 function Cart() {
   return (
     <div className='h-[700px] flex items-center justify-center '>
-      <div className="mt-20  bg-[url('../public/images/products-bg.jpeg')] h-[635px] w-full mx-20 p-4 flex flex-col justify-center bg-cover bg-center ">
-        <p className='text-6xl ml-6 mb-4 mt-[-80px] font-bold uppercase text-white'>Cart</p>
-        <div className=' ml-6 h-[470px] w-[1160px] flex gap-6 '>
+      <div className="mt-20  bg-[url('../public/images/cart-bg.jpeg')] h-[635px] w-full mx-20 p-4 flex flex-col justify-center bg-cover bg-center ">
+        <p className='text-6xl ml-6 mb-4 mt-[-40px] font-bold uppercase text-white'>Cart</p>
+        <div className=' ml-6 pt-10 h-[470px] w-[1160px] flex gap-6 '>
           <div className='bg-white h-96 w-full rounded-3xl flex flex-col items-center justify-center '>
             <div className='h-3/6 w-full flex items-center justify-between'>
               <div className='w-1/2 flex items-center justify-center h-5/6 '>
