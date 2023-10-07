@@ -1,5 +1,6 @@
 import React from 'react';
 import NotStartedSharpIcon from '@mui/icons-material/NotStartedSharp';
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -9,7 +10,7 @@ function Home() {
           <div className="bg-[url('../public/images/home-bg-2.jpeg')] w-[800px] bg-cover bg-center flex items-center justify-between flex-col">
             <div>
             </div>
-            <NotStartedSharpIcon className='text-6xl mt-12' />
+            <NotStartedSharpIcon className='text-6xl mt-12' style={{ width: '60px', height: '60px' }} />
             <button className='bg-red-800 mb-6 rounded-xl px-4 py-1'>
               WATCH NOW
             </button>
@@ -25,9 +26,11 @@ function Home() {
               </p>
             </div>
             <div>
-              <button className='bg-red-800 mb-6 rounded-xl px-4 py-2'>
-                Contact Us
-              </button>
+              <Link to={'/contact'}>
+                <button className='bg-red-800 mb-6 rounded-xl px-4 py-2'>
+                  Contact Us
+                </button>
+              </Link>
             </div>
           </div>
         </div>
