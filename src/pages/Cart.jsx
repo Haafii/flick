@@ -15,7 +15,7 @@ function Cart() {
           <div className='bg-white h-96 w-full rounded-3xl flex flex-col items-center justify-center '>
             <div className='h-3/6 w-full flex items-center justify-between'>
               <div className='w-1/2 flex items-center justify-center h-5/6 '>
-                <img src='../public/images/shirt.jpeg' alt='Image Description' className='w-full h-full object-contain rounded-3xl' />
+              <img src='../public/images/shirt.jpeg' alt='Image Description' className='w-4/5 h-full rounded-xl' />
               </div>
               <div className='flex flex-col w-1/2 items-center justify-center h-full gap-4'>
                 <button class="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-2">
@@ -57,7 +57,7 @@ function Cart() {
           <div className='bg-white h-96 w-full rounded-3xl flex flex-col items-center justify-center '>
             <div className='h-3/6 w-full flex items-center justify-between'>
               <div className='w-1/2 flex items-center justify-center h-5/6 '>
-                <img src='../public/images/pants.jpeg' alt='Image Description' className='w-full h-full object-contain rounded-3xl' />
+                <img src='../public/images/pants.jpeg' alt='Image Description' className='w-4/5 h-full rounded-xl' />
               </div>
               <div className='flex flex-col w-1/2 items-center justify-center h-full gap-4'>
                 <button class="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-2">
@@ -99,7 +99,7 @@ function Cart() {
           <div className='bg-white h-96 w-full rounded-3xl flex flex-col items-center justify-center '>
             <div className='h-3/6 w-full flex items-center justify-between'>
               <div className='w-1/2 flex items-center justify-center h-5/6 '>
-                <img src='../public/images/saree.jpeg' alt='Image Description' className='w-full h-full object-contain rounded-3xl' />
+              <img src='../public/images/saree.jpeg' alt='Image Description' className='w-4/5 h-full rounded-xl' />
               </div>
               <div className='flex flex-col w-1/2 items-center justify-center h-full gap-4'>
                 <button className="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-2">
