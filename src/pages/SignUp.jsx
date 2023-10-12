@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const SignUp = () => {
   return (
@@ -6,7 +7,7 @@ const SignUp = () => {
       <div className="w-1/3 p-20 flex flex-col justify-center">
         <div className="text-center mb-8">
           <img
-            src="../public/images/logo.png" 
+            src="../public/images/logo.png"
             alt="App Logo"
             className="w-36 h-36 rounded-full mx-auto"
           />
@@ -34,12 +35,15 @@ const SignUp = () => {
               className="w-full pr-36 pl-4 py-2 border rounded-3xl"
             />
           </div>
-          <button
-            type="submit"
-            className="w-1/3 bg-blue-500 text-white py-2 rounded-xl hover:bg-blue-600"
-          >
-            Create
-          </button>
+          <Link to={'/home'} className='w-full flex items-center justify-center'>
+            <button
+              type="submit"
+              className="w-1/3 bg-blue-500 text-white py-2 rounded-xl hover:bg-blue-600"
+            >
+              Create
+            </button>
+          </Link>
+
         </form>
         <p className="mt-4 text-center font-bold">
           Already have an account? <a href="#">Sign In</a>
