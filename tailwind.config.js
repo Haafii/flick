@@ -13,7 +13,7 @@ export default {
         'bg-product': "url('./public/images/products-bg.jpeg')",
       },
       colors: {
-        primary: "#00CBFF",
+        primary: "#c35320",
       },
     },
   },

@@ -8,7 +8,7 @@ function Header() {
   }
   else {
     return (
-      <header className="bg-blue-500 h-[100px] pt-6 pb-6 pr-6 flex justify-between items-center w-screen">
+      <header className="bg-primary h-[100px] pt-6 pb-6 pr-6 flex justify-between items-center w-screen">
         <div className="flex items-center justify-between w-full h-10">
           <div className="rounded-full w-36 h-20 flex items-center justify-center">
             <img
