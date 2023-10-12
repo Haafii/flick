@@ -1,6 +1,8 @@
 import React from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import SearchIcon from '@mui/icons-material/Search';
+import LogoutIcon from '@mui/icons-material/Logout';
+
 function Header() {
   const location = useLocation();
   if (location.pathname === '/') {
@@ -44,6 +46,11 @@ function Header() {
               <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                 <SearchIcon className="text-gray-400 " />
               </div>
+            </div>
+            <div>
+              <Link to={'/'}>
+                <LogoutIcon />
+              </Link>
             </div>
           </div>
         </div>
