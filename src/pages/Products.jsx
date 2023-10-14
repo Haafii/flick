@@ -12,7 +12,7 @@ function Products() {
               <img src='../public/images/pants.jpeg' alt='Image Description' className='w-full h-full object-contain rounded-3xl ' />
             </div>
             <Link to={'/buy'}>
-              <button className='bg-primary hover:bg-secondary hover:text-white text-white rounded-xl px-6 uppercase font-semibold py-2'>
+              <button className='bg-primary hover:bg-secondary text-white rounded-xl px-6 uppercase font-semibold py-2'>
                 buy
               </button>
             </Link>
@@ -22,7 +22,7 @@ function Products() {
               <img src='../public/images/shirt.jpeg' alt='Image Description' className='w-full h-full object-contain rounded-3xl ' />
             </div>
             <Link to={'/buy'}>
-              <button className='bg-primary hover:bg-secondary hover:text-white text-white rounded-xl px-6 uppercase font-semibold py-2'>
+              <button className='bg-primary hover:bg-secondary text-white rounded-xl px-6 uppercase font-semibold py-2'>
                 buy
               </button>
             </Link>
@@ -32,7 +32,7 @@ function Products() {
               <img src='../public/images/saree.jpeg' alt='Image Description' className='w-full h-full object-contain rounded-3xl ' />
             </div>
             <Link to={'/buy'}>
-              <button className='bg-primary hover:bg-secondary hover:text-white text-white rounded-xl px-6 uppercase font-semibold py-2'>
+              <button className='bg-primary hover:bg-secondary text-white rounded-xl px-6 uppercase font-semibold py-2'>
                 buy
               </button>
             </Link>
