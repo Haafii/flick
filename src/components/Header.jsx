@@ -1,9 +1,41 @@
 import React from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import SearchIcon from '@mui/icons-material/Search';
-import LogoutIcon from '@mui/icons-material/Logout';
+import PersonIcon from '@mui/icons-material/Person';
+import { useState, useRef, useEffect } from 'react';
+
 
 function Header() {
+  const [isPopupOpen, setPopupOpen] = useState(false);
+  const popupRef = useRef(null);
+
+  const openPopup = () => {
+    setPopupOpen(true);
+  };
+
+  const closePopup = () => {
+    setPopupOpen(false);
+  };
+
+  // Add an event listener to handle clicks outside the pop-up
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (popupRef.current && !popupRef.current.contains(event.target)) {
+        closePopup();
+      }
+    };
+
+    if (isPopupOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    } else {
+      document.removeEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isPopupOpen]);
+
   const location = useLocation();
   if (location.pathname === '/') {
     return null;
@@ -48,9 +80,25 @@ function Header() {
               </div>
             </div>
             <div>
-              <Link to={'/'}>
-                <LogoutIcon />
-              </Link>
+              <div className='w-12 h-12 rounded-full flex items-center justify-center border border-white cursor-pointer'
+                onClick={openPopup}>
+                <PersonIcon className='text-white' style={{ width: '40px', height: '40px' }} />
+              </div>
+              {isPopupOpen && (
+                <div className="fixed right-8 w-56 h-52 p-6 bg-gray-100 shadow-lg rounded-lg flex flex-col gap-6"
+                ref={popupRef}>
+                  <img
+                    src="../public/images/pro_pic.jpeg"
+                    alt="Profile Picture"
+                    className="w-16 rounded-full mx-auto mb-4 h-16"
+                  />
+                  <Link to={'/'} className='flex items-center justify-center w-full'>
+                    <button className="bg-primary w-full hover:bg-secondary text-white px-4 py-2 rounded" onClick={closePopup}>
+                      Logout
+                    </button>
+                  </Link>
+                </div>
+              )}
             </div>
           </div>
         </div>
