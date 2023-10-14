@@ -38,7 +38,7 @@ const SignUp = () => {
           <Link to={'/home'} className='w-full flex items-center justify-center'>
             <button
               type="submit"
-              className="w-1/3 bg-primary text-white py-2 rounded-xl hover:bg-secondary"
+              className="bg-primary hover:bg-secondary w-1/3 text-white py-2 rounded-xl "
             >
               Create
             </button>
