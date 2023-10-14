@@ -11,7 +11,7 @@ function Catagories() {
                 <div className='h-96'>
                   <img src='../public/images/kids_cat.jpeg' alt='Image Description' className='w-full h-full object-contain rounded-3xl ' />
                 </div>
-                <button className='bg-red-700 text-white rounded-xl px-6 uppercase font-semibold py-2'>
+                <button className='bg-primary hover:bg-secondary text-white rounded-xl px-6 uppercase font-semibold py-2'>
                   View
                 </button>
               </div>
@@ -19,7 +19,7 @@ function Catagories() {
                 <div className='h-96'>
                   <img src='../public/images/girl_cat.jpeg' alt='Image Description' className='w-full h-full object-contain rounded-3xl ' />
                 </div>
-                <button className='bg-red-700 text-white rounded-xl px-6 uppercase font-semibold py-2'>
+                <button className='bg-primary hover:bg-secondary text-white rounded-xl px-6 uppercase font-semibold py-2'>
                   View
                 </button>
               </div>
@@ -27,7 +27,7 @@ function Catagories() {
                 <div className='h-96'>
                   <img src='../public/images/men_cat.jpeg' alt='Image Description' className='w-full h-full object-contain rounded-3xl ' />
                 </div>
-                <button className='bg-red-700 text-white rounded-xl px-6 uppercase font-semibold py-2'>
+                <button className='bg-primary hover:bg-secondary text-white rounded-xl px-6 uppercase font-semibold py-2'>
                   View
                 </button>
               </div>
