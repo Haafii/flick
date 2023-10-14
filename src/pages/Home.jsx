@@ -11,7 +11,7 @@ function Home() {
             <div>
             </div>
             <NotStartedSharpIcon className='text-6xl mt-12' style={{ width: '60px', height: '60px' }} />
-            <button className='bg-primary mb-6 rounded-xl px-4 py-1'>
+            <button className='bg-primary hover:bg-secondary hover:text-white mb-6 rounded-xl px-4 py-1'>
               WATCH NOW
             </button>
           </div>
@@ -27,7 +27,7 @@ function Home() {
             </div>
             <div>
               <Link to={'/contact'}>
-                <button className='bg-red-800 mb-6 rounded-xl px-4 py-2'>
+                <button className='bg-primary hover:bg-secondary hover:text-white mb-6 rounded-xl px-4 py-2'>
                   Contact Us
                 </button>
               </Link>
