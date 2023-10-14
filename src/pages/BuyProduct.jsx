@@ -12,10 +12,10 @@ function BuyProduct() {
           <div className='flex items-center justify-center h-4/5 mt-6 ml-6'>
             <img src='../public/images/pants.jpeg' alt='Image Description' className='w-full h-full object-contain rounded-xl' />
           </div>
-          <div className='flex flex-col gap-4 h-full mt-14 ml-4'>
-            <FavoriteBorderOutlinedIcon style={{ width: '60px', height: '60px', padding: '10px' }} className='rounded-full border border-gray-400'>
+          <div className='flex flex-col gap-4 h-full mt-14 ml-4 '>
+            <FavoriteBorderOutlinedIcon style={{ width: '60px', height: '60px', padding: '10px' }} className='rounded-full border border-gray-400 cursor-pointer'>
             </FavoriteBorderOutlinedIcon>
-            <ShareOutlinedIcon style={{ width: '60px', height: '60px', padding: '10px' }} className='rounded-full border border-gray-400'>
+            <ShareOutlinedIcon style={{ width: '60px', height: '60px', padding: '10px' }} className='rounded-full border border-gray-400 cursor-pointer'>
             </ShareOutlinedIcon>
           </div>
         </div>
@@ -39,13 +39,13 @@ function BuyProduct() {
             </p>
           </div>
           <div className='flex items-center justify-center gap-4 text-semibold text-lg text-white'>
-            <button className="bg-red-500 px-20 py-4 rounded-md flex">
+            <button className="bg-primary hover:bg-secondary text-white px-20 py-4 rounded-md flex">
               Remove
             </button>
-            <button className="bg-red-500 px-20 py-4 rounded-md">
+            <button className="bg-primary hover:bg-secondary text-white px-20 py-4 rounded-md">
               Save
             </button>
-            <button className="bg-red-500 px-20 py-4 rounded-md">
+            <button className="bg-primary hover:bg-secondary text-white px-20 py-4 rounded-md">
               Buy Now
             </button>
           </div>
