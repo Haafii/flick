@@ -6,10 +6,10 @@ const SignUp = () => {
     <div className="flex justify-start items-center min-h-screen bg-cover bg-center bg-[url('../public/images/bg.jpeg')]">
       <div className="w-1/3 p-20 flex flex-col justify-center">
         <div className="text-center mb-8">
-          <img
+          <div 
             src="../public/images/logo.jpeg"
             alt="App Logo"
-            className="w-36 h-36 rounded-full mx-auto"
+            className="w-36 h-36 rounded-full mx-auto bg-[url('../public/images/logo.jpeg')] bg-cover"
           />
           <h2 className="text-3xl font-semibold mt-4">Sign Up</h2>
         </div>

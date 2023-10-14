@@ -45,10 +45,10 @@ function Header() {
       <header className="bg-primary h-[100px] pt-6 pb-6 pr-6 flex justify-between items-center w-screen">
         <div className="flex items-center justify-between w-full h-10">
           <div className="rounded-full w-36 h-20 flex items-center justify-center">
-            <img
+            <div
               src="../public/images/logo.jpeg"
               alt="Logo"
-              className="w-36 h-36 mt-10 rounded-full "
+              className="w-36 h-36 mt-10 rounded-full bg-[url('../public/images/logo.jpeg')] bg-cover"
             />
           </div>
           <nav>
@@ -87,10 +87,10 @@ function Header() {
               {isPopupOpen && (
                 <div className="fixed right-8 w-56 h-52 p-6 bg-gray-100 shadow-lg rounded-lg flex flex-col gap-6"
                 ref={popupRef}>
-                  <img
+                  <div
                     src="../public/images/pro_pic.jpeg"
                     alt="Profile Picture"
-                    className="w-16 rounded-full mx-auto mb-4 h-16"
+                    className="w-16 rounded-full mx-auto mb-4 h-16 bg-[url('../public/images/pro_pic.jpeg')] bg-center bg-cover"
                   />
                   <Link to={'/'} className='flex items-center justify-center w-full'>
                     <button className="bg-primary w-full hover:bg-secondary text-white px-4 py-2 rounded" onClick={closePopup}>
