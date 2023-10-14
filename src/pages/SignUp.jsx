@@ -7,7 +7,7 @@ const SignUp = () => {
       <div className="w-1/3 p-20 flex flex-col justify-center">
         <div className="text-center mb-8">
           <img
-            src="../public/images/logo.png"
+            src="../public/images/logo.jpeg"
             alt="App Logo"
             className="w-36 h-36 rounded-full mx-auto"
           />

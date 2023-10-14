@@ -46,7 +46,7 @@ function Header() {
         <div className="flex items-center justify-between w-full h-10">
           <div className="rounded-full w-36 h-20 flex items-center justify-center">
             <img
-              src="../public/images/logo.png"
+              src="../public/images/logo.jpeg"
               alt="Logo"
               className="w-36 h-36 mt-10 rounded-full "
             />
