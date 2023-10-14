@@ -18,15 +18,15 @@ function Cart() {
               <img src='../public/images/shirt.jpeg' alt='Image Description' className='w-4/5 h-full rounded-xl' />
               </div>
               <div className='flex flex-col w-1/2 items-center justify-center h-full gap-4'>
-                <button class="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-2">
+                <button class="border border-solid border-gray-400 hover:bg-primary hover:text-white px-10 py-2 w-5/6 rounded-md flex  gap-2">
                   <DeleteForeverOutlinedIcon className='ml-[-17px]' />
                   Remove
                 </button>
-                <button class="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-4">
+                <button class="border border-solid hover:bg-primary hover:text-white border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-4">
                   <BookmarkBorderOutlinedIcon className='ml-[-17px]' />
                   Save
                 </button>
-                <button class="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex gap-2">
+                <button class="border border-solid hover:bg-primary hover:text-white border-gray-400 px-10 py-2 w-5/6 rounded-md flex gap-2">
                   <ShoppingBagOutlinedIcon className='ml-[-24px]' />
                   Buy Now
                 </button>
@@ -34,7 +34,7 @@ function Cart() {
             </div>
             <div className='h-1/6 w-full flex items-baseline justify-between'>
               <p className='text-2xl font-semibold ml-6'>Shirts</p>
-              <button class="border border-solid border-gray-400 rounded-md gap-1 p-1 mr-6">
+              <button class="border hover:bg-primary hover:text-white border-solid border-gray-400 rounded-md gap-1 p-1 mr-6">
                 Qty 1
               </button>
             </div>
@@ -60,15 +60,15 @@ function Cart() {
                 <img src='../public/images/pants.jpeg' alt='Image Description' className='w-4/5 h-full rounded-xl' />
               </div>
               <div className='flex flex-col w-1/2 items-center justify-center h-full gap-4'>
-                <button class="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-2">
+                <button class="border border-solid hover:bg-primary hover:text-white border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-2">
                   <DeleteForeverOutlinedIcon className='ml-[-17px]' />
                   Remove
                 </button>
-                <button class="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-4">
+                <button class="border border-solid hover:bg-primary hover:text-white border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-4">
                   <BookmarkBorderOutlinedIcon className='ml-[-17px]' />
                   Save
                 </button>
-                <button class="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex gap-2">
+                <button class="border border-solid hover:bg-primary hover:text-white border-gray-400 px-10 py-2 w-5/6 rounded-md flex gap-2">
                   <ShoppingBagOutlinedIcon className='ml-[-24px]' />
                   Buy Now
                 </button>
@@ -76,7 +76,7 @@ function Cart() {
             </div>
             <div className='h-1/6 w-full flex items-baseline justify-between'>
               <p className='text-2xl font-semibold ml-6'>Pants</p>
-              <button class="border border-solid border-gray-400 rounded-md gap-1 p-1 mr-6">
+              <button class="border hover:bg-primary hover:text-white border-solid border-gray-400 rounded-md gap-1 p-1 mr-6">
                 Qty 1
               </button>
             </div>
@@ -102,15 +102,15 @@ function Cart() {
               <img src='../public/images/saree.jpeg' alt='Image Description' className='w-4/5 h-full rounded-xl' />
               </div>
               <div className='flex flex-col w-1/2 items-center justify-center h-full gap-4'>
-                <button className="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-2">
+                <button className="border border-solid hover:bg-primary hover:text-white border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-2">
                   <DeleteForeverOutlinedIcon className='ml-[-17px]' />
                   Remove
                 </button>
-                <button className="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-4">
+                <button className="border border-solid hover:bg-primary hover:text-white border-gray-400 px-10 py-2 w-5/6 rounded-md flex  gap-4">
                   <BookmarkBorderOutlinedIcon className='ml-[-17px]' />
                   Save
                 </button>
-                <button className="border border-solid border-gray-400 px-10 py-2 w-5/6 rounded-md flex gap-2">
+                <button className="border border-solid hover:bg-primary hover:text-white border-gray-400 px-10 py-2 w-5/6 rounded-md flex gap-2">
                   <ShoppingBagOutlinedIcon className='ml-[-24px]' />
                   Buy Now
                 </button>
@@ -118,7 +118,7 @@ function Cart() {
             </div>
             <div className='h-1/6 w-full flex items-baseline justify-between'>
               <p className='text-2xl font-semibold ml-6'>Saree</p>
-              <button class="border border-solid border-gray-400 rounded-md gap-1 p-1 mr-6">
+              <button class="border border-solid hover:bg-primary hover:text-white border-gray-400 rounded-md gap-1 p-1 mr-6">
                 Qty 1
               </button>
             </div>
